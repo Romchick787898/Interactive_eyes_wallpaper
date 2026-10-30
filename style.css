@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+}
+
+.phone{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.eye_container{
+  position: relative;
+  height: 180px;
+  width: 300px;
+}
+
+.eye{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 180px;
+  left: 0;
+  top: 0;
+}
+
+.iris{
+  position: absolute;
+  width: 20%;
+  top: 60px;
+  left: 110px;
+  z-index: 1;
+}
+
+.eye_no_white{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 180px;
+  z-index: 33;
+}
+
+.people{
+  position: relative;
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.people > img{
+  width: 450px;
+}
+
+.face{
+  position: relative;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eye_two_container{
+  position: relative;
+  display: flex;
+}
